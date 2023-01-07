@@ -45,6 +45,8 @@ function App( ) {
           <TodoItem 
             key={todo.text} 
             text={todo.text}
+            todos={todos} 
+            setTodos={setTodos}
             completed={todo.completed}
           />
         ))}
