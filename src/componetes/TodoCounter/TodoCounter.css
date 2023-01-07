@@ -1,0 +1,25 @@
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    color: white;
+    font-size: 40px;
+}
+.TodoCounter {
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px 20px 0px;
+    color: #7887c4;
+    font-size: 20px;
+}
+
