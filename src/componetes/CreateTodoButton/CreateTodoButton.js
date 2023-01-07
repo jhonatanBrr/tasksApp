@@ -3,15 +3,15 @@ import "./CreateTodoButton.css"
 
 function CreateTodoButton() {
 
-    const onClickButton = () => {
-        alert('click')
+    const onClickButton = (msg) => {
+        alert(msg)
     }
 
 
     return (
         <button 
             className="CreateTodoButton"
-            onClick={onClickButton}
+            onClick={() => onClickButton("Aqui se deberia habrir el modal")}
         >
             +
         </button>
