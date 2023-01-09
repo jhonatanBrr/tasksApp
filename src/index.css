@@ -17,3 +17,33 @@ code {
   width: 40%;
   margin: auto;
 }
+
+@media (max-width: 1500px) {
+  #root{
+    width: 50%;
+  }
+}
+
+@media (max-width: 1280px) {
+  #root{
+    width: 60%;
+  }
+}
+
+@media (max-width: 770px) {
+  #root{
+    width: 70%;
+  }
+}
+
+@media (max-width: 640px) {
+  #root{
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  #root{
+    width: 85%;
+  }
+}
